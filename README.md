@@ -53,12 +53,6 @@ git push -u origin main
 2. "New Project" → seleccionar el repo
 3. "Deploy" — en 2 min tenés tu URL: `senderoapp.vercel.app`
 
-## Dominio personalizado
-
-1. Comprar el dominio (ej: `senderoapp.co`) en Hostinger / GoDaddy
-2. En Vercel → Settings → Domains → Add Domain
-3. Configurar los DNS como indica Vercel
-
 ## Conectar Waitlist a Google Sheets
 
 1. Crear un Google Form con campos: Nombre, Email, Rol
@@ -92,14 +86,6 @@ src/app/
 └── page.tsx                  # Landing page
 ```
 
-## Imágenes
 
-Las fotos son de **Unsplash** (libres de uso comercial). Si querés usar tus propias imágenes:
-
-1. Poné las fotos en `public/images/`
-2. Actualizá las URLs en `src/app/page.tsx` (array `routes`)
-3. Si ya no usás Unsplash, podés quitar `images.unsplash.com` de `next.config.ts`
-
----
-
-**SenderoApp** — Medellín, Colombia · 2026
+**SenderoApp** — Medellín, Colombia · 2026 
+Desarrollado por John Esteban Garcia Cely
