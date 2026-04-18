@@ -223,7 +223,7 @@ const marqueeItems = [
 // Testimonial-style quotes (realistic scenarios — pre-launch, so framed as aspiration)
 const quotes = [
   {
-    text: "Quiero saber con quién estoy caminando antes de montarme a la chiva a las 5 AM.",
+    text: "Quiero saber con quién estoy caminando antes de empezar la caminata.",
     who: "Caminante solo · Medellín",
   },
   {
