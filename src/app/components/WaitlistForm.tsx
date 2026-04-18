@@ -105,8 +105,8 @@ export default function WaitlistForm({ role, compact = false }: WaitlistFormProp
           {loading
             ? "Enviando..."
             : role === "guide"
-            ? "Quiero ser guía"
-            : "Reservar mi lugar"}
+              ? "Quiero ser guía"
+              : "Reservar mi lugar"}
         </span>
         {!loading && (
           <svg
@@ -127,12 +127,12 @@ export default function WaitlistForm({ role, compact = false }: WaitlistFormProp
         )}
       </button>
       <p className="text-[0.68rem] text-[var(--color-text-subtle)] text-center mt-1 leading-relaxed px-2">
-        Al registrarte aceptás que usemos tu correo solo para avisarte del lanzamiento de SenderoApp. No compartimos tus datos con terceros. Podés pedir ser borrado en{" "}
+        Al registrarte aceptás que usemos tu correo solo para avisarte del lanzamiento de SenderoApp. No compartimos tus datos con terceros. Podés pedir ser borrado enviando un mensaje al {" "}
         <a
-          href="mailto:hola@senderoapp.co"
+          href="https://wa.me/573001234567"
           className="text-[var(--color-accent)] hover:underline"
         >
-          hola@senderoapp.co
+          324 661 16 71
         </a>
         .
       </p>
