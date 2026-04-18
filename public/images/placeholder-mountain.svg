@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="40%" stop-color="#3a2418"/>
+      <stop offset="75%" stop-color="#6b3820"/>
+      <stop offset="100%" stop-color="#c4823a"/>
+    </linearGradient>
+    <linearGradient id="mtn-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4530" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a2a1f"/>
+    </linearGradient>
+    <linearGradient id="mtn-mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d2218"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="mtn-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#140f0a"/>
+      <stop offset="100%" stop-color="#0a0705"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="70%" cy="55%" r="25%">
+      <stop offset="0%" stop-color="#fde7a8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#d4a94a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d4a94a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="1000" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <rect width="800" height="1000" fill="url(#sun)"/>
+  <circle cx="560" cy="550" r="30" fill="#fde7a8" opacity="0.85"/>
+  <circle cx="560" cy="550" r="18" fill="#fff6e0"/>
+
+  <!-- Far mountains -->
+  <path d="M 0 720 L 80 640 L 170 700 L 260 600 L 360 680 L 460 620 L 560 680 L 680 610 L 800 670 L 800 1000 L 0 1000 Z" fill="url(#mtn-far)"/>
+
+  <!-- Mid mountains -->
+  <path d="M 0 800 L 100 720 L 200 790 L 300 680 L 420 770 L 540 700 L 660 790 L 800 720 L 800 1000 L 0 1000 Z" fill="url(#mtn-mid)"/>
+
+  <!-- Snow caps -->
+  <path d="M 300 680 l 14 22 l -10 6 l -16 -8 Z M 540 700 l 14 22 l -10 6 l -16 -8 Z" fill="#ede6d6" opacity="0.22"/>
+
+  <!-- Mist band -->
+  <rect x="0" y="790" width="800" height="60" fill="#ede6d6" opacity="0.05"/>
+
+  <!-- Near mountains -->
+  <path d="M 0 880 L 90 830 L 180 870 L 280 820 L 390 870 L 500 810 L 620 870 L 740 830 L 800 870 L 800 1000 L 0 1000 Z" fill="url(#mtn-near)"/>
+
+  <!-- Tiny hiker silhouette -->
+  <g transform="translate(380 860)">
+    <path d="M 0 0 l -2 -6 l 1 -5 l 3 -2 l 3 2 l 1 5 l -2 6 Z" fill="#0a0705"/>
+    <circle cx="1" cy="-13" r="2" fill="#0a0705"/>
+    <line x1="5" y1="-2" x2="9" y2="6" stroke="#0a0705" stroke-width="0.9" stroke-linecap="round"/>
+  </g>
+</svg>
