@@ -45,7 +45,7 @@ npm start
 git init
 git add .
 git commit -m "SenderoApp landing page v2"
-git remote add origin https://github.com/TU_USUARIO/senderoapp.git
+git remote add origin 
 git push -u origin main
 ```
 
