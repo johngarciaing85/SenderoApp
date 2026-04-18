@@ -904,7 +904,7 @@ export default function Home() {
         <div className="relative z-10 max-w-[1200px] mx-auto px-6">
           <div className="grid lg:grid-cols-12 gap-10">
             <div className="lg:col-span-7 reveal">
-              <p className="eyebrow mb-5">¿Sos guía?</p>
+              <p className="eyebrow mb-5">¿Eres guía?</p>
               <h2 className="font-display section-headline text-[var(--color-text)] mb-6">
                 Deja de perseguir pagos{" "}
                 <em className="text-[var(--color-accent)] font-light italic">

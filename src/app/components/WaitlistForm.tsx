@@ -127,7 +127,7 @@ export default function WaitlistForm({ role, compact = false }: WaitlistFormProp
         )}
       </button>
       <p className="text-[0.68rem] text-[var(--color-text-subtle)] text-center mt-1 leading-relaxed px-2">
-        Al registrarte aceptás que usemos tu correo solo para avisarte del lanzamiento de SenderoApp. No compartimos tus datos con terceros. Podés pedir ser borrado enviando un mensaje al {" "}
+        Al registrarte aceptás que usemos tu correo solo para avisarte del lanzamiento de SenderoApp. No compartimos tus datos con terceros. Puedes pedir ser borrado enviando un mensaje al {" "}
         <a
           href="https://wa.me/573001234567"
           className="text-[var(--color-accent)] hover:underline"
